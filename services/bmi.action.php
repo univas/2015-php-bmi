@@ -9,5 +9,7 @@ if(is_numeric($weight) && is_numeric($height)) {
     $bmiIndex = BMIService::getIndex($weight, $height);
 }
 
+sleep (1);
+
 echo $bmiIndex;
 ?>
